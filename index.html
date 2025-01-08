@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <style>
+        a{
+            text-decoration: none;
+            font-weight:bolder;
+            margin-top: 30px;
+        }
+        nav{
+            display:flex;
+            justify-content: space-around;
+            
+        }
+        img{
+            border-radius: 50%;
+            width:150px;
+            height:100px;
+
+        }
+        body{
+            background:linear-gradient(to bottom,aqua,rgb(240, 240, 146));
+            background-repeat: no-repeat;
+        }
+        #anime{
+            animation:mark 6s linear infinite;
+
+            
+        }
+        @keyframes mark{
+            from{
+                transform:translateX(-100%);
+            }
+            to{
+                transform:translateX(100%);
+            }
+        }
+        #anime:hover{
+            animation-play-state:paused;
+
+        }
+       header{
+        font-weight:bolder;
+        animation:my 5s linear infinite ;
+       }
+       @keyframes my{
+        0%{
+            color:rgb(32, 61, 224);
+        }
+        88%{
+            color:rgb(187, 34, 167);
+        }
+       }
+    </style>
+</head>
+<body >
+    
+    <img src="hacker.jpg" align="left">
+   <nav> <a href="Portfolio.html">Home</a>
+    <a href="CV.HTML">About</b></a>
+    <a href="https://rahhim-54.github.io/form/">Mini</a>
+    <a href="project.html">Project</a>
+    <a href="">Contact</a>
+    </nav><br><br><br>
+    
+    <header>
+      <p>Hello Everyone I'm Shaik.Rahim Khadar Vali.</p>
+
+      <p>Iam A Web Developer And I'm Also A Gamer.</p>
+      </header>
+    
+    <p id="anime">Thanks For Visting My Portfolio</p>
+</body>
+</html>
